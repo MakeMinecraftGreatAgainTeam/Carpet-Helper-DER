@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet_helper_der",
+  "version": "${version}",
+  "name": "Carpet-Helper-DER",
+  "description": "Another carpet mod helper for dreamrunner server",
+  "authors": [
+    "MakeMinecraftGreatAgainTeam"
+  ],
+  "contact": {
+    "repo": "https://github.com/MakeMinecraftGreatAgainTeam/Carpet-Helper-DER"
+  },
+  "license": "MIT",
+  "icon": "assets/carpet_helper_der/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.mmga.der.carpet.helper.DreamRunnerCarpetHelper"
+    ]
+  },
+  "mixins": [
+    "carpet_helper_der.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
